@@ -41,7 +41,7 @@ After setting up my Suricata IDS, alerts can be seen now.
 #### Suricata alerts for nmap scan:
 <img src="https://github.com/user-attachments/assets/daac497a-66b1-4bfe-8574-0adca26ea770" width="600"/>
 
-Then, I configured my Suricata IPS:
+Then, I configured my Suricata IPS to block malicious activity.
 
 #### hping3 (Blocked by IPS):
 
