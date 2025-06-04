@@ -35,10 +35,10 @@ I built this lab to gain practical experience configuring and managing a firewal
 ## Screenshots (Now, using Suricata)
 After setting up my Suricata IDS, alerts can be seen now.
 
-#### Suricata alert for hping3 traffic:
+#### Suricata alerts for hping3 traffic:
 <img src="https://github.com/user-attachments/assets/19f559f4-7676-4a23-afa3-345e69fdce27" width="600"/>
 
-#### Suricata alert for nmap scan:
+#### Suricata alerts for nmap scan:
 <img src="https://github.com/user-attachments/assets/daac497a-66b1-4bfe-8574-0adca26ea770" width="600"/>
 
 Then, I configured my Suricata IPS:
