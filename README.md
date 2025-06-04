@@ -20,25 +20,30 @@ I built this lab to gain practical experience configuring and managing a firewal
 
 ## Screenshots (before Suricata, just using pfSense)
 
-- Using Kali, I am using hping3 to flood my device:
+#### Using Kali to flood the target with hping3:
 <img src="https://github.com/user-attachments/assets/6f136ebf-5bba-4e4d-9878-f2a9aaefad1d" width="600"/>
 
-- Wireshark hping3 results:
+#### Wireshark showing hping3 traffic:
 <img src="https://github.com/user-attachments/assets/513d5f80-fe0e-4c21-9063-e180b25b74f8" width="600"/>
 
-- Now, I have implemented a pfSense rule to block TCP traffic from Kali:
+#### Created new pfSense rule to block TCP traffic from Kali:
 <img src="https://github.com/user-attachments/assets/b80dee63-1d64-4366-a23e-60e8cc1d3643" width="600"/>
 
-- Now, with my new "Block Kali DoS" rule set up, the hping3 pings get blocked:
+#### "Block Kali DoS" rule successfully blocks the hping3 traffic:
 <img src="https://github.com/user-attachments/assets/113e5009-08d0-49ef-b20d-2017c25d4af9" width="600"/>
 
 ## Screenshots (Now, using Suricata)
 After setting up my Suricata IDS, alerts can be seen now.
 
-- hping3:
+#### Suricata alert for hping3 traffic:
 <img src="https://github.com/user-attachments/assets/cc892952-a559-4426-ac5a-37dff1a401b4" width="600"/>
 
-- nmap:
+#### Suricata alert for nmap scan:
 <img src="https://github.com/user-attachments/assets/daac497a-66b1-4bfe-8574-0adca26ea770" width="600"/>
 
-Then, I configured my 
+Then, I configured my Suricata IPS.
+
+#### hping3:
+
+## Lessons Learned
+Throughout this experience, I learned many things. I learned how to build and manage firewall rules, monitor traffic, and how to configure intrusion detection and prevention systems. This helped me understand how security teams use these tools to protect networks against real-world threats. I also became more confident using tools like Suricata, pfSense, and Wireshark.
