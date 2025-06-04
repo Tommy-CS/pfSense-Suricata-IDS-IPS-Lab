@@ -37,7 +37,10 @@ After setting up my Suricata IDS, alerts can be seen now.
 
 #### Suricata alerts for hping3 traffic:
 <img src="https://github.com/user-attachments/assets/19f559f4-7676-4a23-afa3-345e69fdce27" width="600"/>
+
+
 ![alertlog](https://github.com/user-attachments/assets/b3f2b759-0378-4270-b5ce-6e6a1107ecf4)
+
 <img src="https://github.com/user-attachments/assets/b3f2b759-0378-4270-b5ce-6e6a1107ecf4" width="600"/>
 
 #### Suricata alerts for nmap scan:
