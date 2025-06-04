@@ -24,7 +24,7 @@ Using Kali, I am using hping3 to flood my device:
 ![image](https://github.com/user-attachments/assets/6f136ebf-5bba-4e4d-9878-f2a9aaefad1d)
 
 Wireshark hping3 results:
-![image](https://github.com/user-attachments/assets/513d5f80-fe0e-4c21-9063-e180b25b74f8)
+<img src="https://github.com/user-attachments/assets/513d5f80-fe0e-4c21-9063-e180b25b74f8" width="600"/>
 
 Now, I have implemented a pfSense rule to block TCP traffic from Kali:
 ![image](https://github.com/user-attachments/assets/b80dee63-1d64-4366-a23e-60e8cc1d3643)
@@ -33,7 +33,10 @@ Now, with my new "Block Kali DoS" rule set up, the hping3 pings get blocked:
 ![image](https://github.com/user-attachments/assets/113e5009-08d0-49ef-b20d-2017c25d4af9)
 
 ## Screenshots (Now, using Suricata)
-After setting up my Suricata IDS alerts can be seen now:
+After setting up my Suricata IDS alerts can be seen now.
+
+hping3:
 ![image](https://github.com/user-attachments/assets/cc892952-a559-4426-ac5a-37dff1a401b4)
+nmap:
 ![image](https://github.com/user-attachments/assets/daac497a-66b1-4bfe-8574-0adca26ea770)
 
