@@ -33,5 +33,7 @@ Now, with my new "Block Kali DoS" rule set up, the hping3 pings get blocked:
 ![image](https://github.com/user-attachments/assets/113e5009-08d0-49ef-b20d-2017c25d4af9)
 
 ## Screenshots (Now, using Suricata)
-
+After setting up my Suricata IDS alerts can be seen now:
+![image](https://github.com/user-attachments/assets/cc892952-a559-4426-ac5a-37dff1a401b4)
+![image](https://github.com/user-attachments/assets/daac497a-66b1-4bfe-8574-0adca26ea770)
 
