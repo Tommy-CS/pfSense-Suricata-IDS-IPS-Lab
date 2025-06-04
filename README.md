@@ -24,7 +24,7 @@ Using Kali, I am using hping3 to flood my device:
 ![image](https://github.com/user-attachments/assets/6f136ebf-5bba-4e4d-9878-f2a9aaefad1d)
 
 Wireshark hping3 results:
-<img src="https://github.com/user-attachments/assets/513d5f80-fe0e-4c21-9063-e180b25b74f8" width="600"/>
+<img src="https://github.com/user-attachments/assets/513d5f80-fe0e-4c21-9063-e180b25b74f8" width="600" style="display: block; margin: 0;" />
 
 Now, I have implemented a pfSense rule to block TCP traffic from Kali:
 ![image](https://github.com/user-attachments/assets/b80dee63-1d64-4366-a23e-60e8cc1d3643)
