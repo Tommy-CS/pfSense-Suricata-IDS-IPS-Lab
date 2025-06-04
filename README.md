@@ -43,7 +43,7 @@ After setting up my Suricata IDS, alerts can be seen now.
 
 Then, I configured my Suricata IPS:
 
-#### hping3:
+#### hping3 (Blocked by IPS):
 
 ## Lessons Learned
 Throughout this experience, I learned many things. I learned how to build and manage firewall rules, monitor traffic, and how to configure intrusion detection and prevention systems. This helped me understand how security teams use these tools to protect networks against real-world threats. I also became more confident using tools like Suricata, pfSense, and Wireshark.
